@@ -1,0 +1,290 @@
+body {
+    background-image: url("/images/barbie.png");
+}
+
+
+#titre1  {
+
+    text-align: center;
+
+    font-family : Bradley Hand, cursive;
+
+    color : rgb(255, 255, 255);
+
+    font-size: 40px;
+
+    font-weight: 200px;
+
+    text-decoration-thickness: 3px;
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+    border-radius: 20px;
+
+    background-color: #f44daec9;
+
+    background-size: 200cm;
+
+    max-width: 500px;
+
+    margin-left: 600px;
+
+    margin-right: 600px;
+
+    margin-bottom: 100px;
+
+}
+
+ 
+
+#titre2 {
+
+    text-align:left;
+
+    font-family : Bradley Hand, cursive;
+
+    color : rgb(199, 82, 101);
+
+    margin-left: 0.5cm;
+
+}
+
+ 
+
+#bouton1 {
+
+    background-color: rgb(231, 122, 167);
+
+    color: white;
+
+    padding-right: 15px;
+
+    padding-left: 15px;
+
+    padding-top: 5px;
+
+    padding-bottom: 5px;
+
+    margin-bottom: 25px;
+
+    border-radius: 10px;
+
+    font-size: 18px;
+
+    margin-left: 20px;
+
+    height: 40px;
+
+    width:250px
+
+}
+
+ 
+
+#bouton1:hover {
+
+    background-color: rgba(230, 17, 130, 0.804);
+
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+
+}
+
+ 
+
+div {
+
+    border-radius: 20px;
+
+    max-width: 1500px;
+
+    margin-left: 200px;
+
+    margin-right: 200px;
+
+}
+
+ 
+
+#form {
+
+    text-align : center;
+
+    box-shadow: 5px 5px 10px black;
+
+    border-radius: 20px;
+
+    background-color: rgb(231, 122, 167);
+
+    font-family: Palatino, URW Palladio L, serif;
+
+    font-size: 18px;
+
+    color: white;
+
+}
+
+ 
+
+#envoyer {
+
+    background-color: rgba(230, 17, 130, 0.804);
+
+    color: white;
+
+    padding-top: 5px;
+
+    padding-bottom: 5px;
+
+    margin-left: 10px;
+
+    margin-bottom: 10px;
+
+    margin-top : 10px;
+
+    border-radius: 10px;
+
+    font-size: 15px;  
+
+    height: 30px;
+
+    width: 150px
+
+}
+
+ 
+
+.buttontask {
+
+    background-color: rgba(228, 58, 149, 0.848);
+
+    color: white;
+
+    font-size : 20px;
+
+    margin-left: 5px;
+
+    border-radius: 50%;
+
+}
+
+ 
+
+.buttontask:hover {
+
+    box-shadow: 5px 5px 10px black;
+
+    background-color: rgb(171, 22, 107);
+
+}
+
+ 
+
+.puce {
+
+    list-style : none;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Playpen Sans', cursive;
+
+}
+
+ 
+
+#nomlist {
+
+    font-size: 25px;
+
+    color : rgb(244, 244, 244);
+
+    font-family:cursive;
+
+    margin-right: 20px;
+
+}
+
+ 
+
+#task {
+
+    font-size : 15px;
+
+    font-family: Arial, Helvetica, serif;
+
+    color : rgb(178, 31, 178);
+
+}
+
+ 
+
+#deleted {
+
+    background-color: rgb(230, 42, 42);
+
+    font-size : 15px;
+
+    margin-left: 5px;
+
+    border-radius: 50%;
+
+}
+
+ 
+
+#deleteList {
+
+    background-color: rgb(230, 42, 42);
+
+    font-size : 15px;
+
+    margin-left: 5px;
+
+    border-radius: 50%;
+
+}
+
+ 
+
+#deleteList:hover {
+
+    box-shadow: 3px 3px 5px black;
+
+}
+
+ 
+
+#update {
+
+    background-image: url(/images/edit_FILL0_wght400_GRAD0_opsz24.svg);
+
+    background-color: rgb(248, 193, 220);
+
+    border-radius: 40%;
+
+    height: 30px;
+
+    width: 30px;
+
+    margin-left: 10px;
+
+}
+
+input[type="radio"] {
+    display: none; 
+}
+  
+input[type="radio"] + label {
+    padding: 5px 10px;
+    border: 1px solid #e1077f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+input[type="radio"]:checked + label {
+    background-color: #db34b4;
+    color: #fff;
+}
+  
+#checkbox {
+    size: 50px;
+}
+

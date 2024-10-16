@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang = "fr - FR" dir = "ltr">
+    <head>
+        <link rel = "stylesheet" href="./css/style.css">
+        <meta charset="utf-8">
+        <meta name 'description' content 'To do list project' >
+        <title>To do list</title>
+        <!--pour le responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <script type="text/javascript" src="./javaScript/main.js" async></script>
+        <h1 id="titre1">To do list !</h1>
+    <div>  
+        <!--pour les boutons de filtrage-->
+        <input type="radio" name="filter" id="option1">
+        <label for="option1">Tâche terminée</label>
+
+        <input type="radio" name="filter" id="option2">
+        <label for="option2">Tâche non terminée</label>
+
+        <input type="radio" name="filter" id="option3">
+        <label for="option3">Toutes les taches</label>
+
+        <button id="bouton1">Créer une nouvelle liste</button>
+        <!--formulaire pour crée une nouvelle liste-->
+        <form class="formulaire" id="form">
+            <br>
+            <label>Nom de la liste</label>
+            <input id="name" type = "text" maxlength="40" placeholder="Nom de la liste" >
+            <br>
+            <button type="submit" id="envoyer">Crée la liste</button>
+        </form>
+        <!--Fin du formulaire d'ajout d'une liste-->    
+    </div>
+    </body>
+</html>
+
+
